@@ -61,6 +61,15 @@ namespace Mundo.Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Aceptar.
+        /// </summary>
+        public static string Aceptar {
+            get {
+                return ResourceManager.GetString("Aceptar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Error.
         /// </summary>
         public static string Error {
@@ -70,25 +79,48 @@ namespace Mundo.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a .
+        ///   Busca una cadena traducida similar a Escribe tu contraseña.
+        /// </summary>
+        public static string ingresacontra {
+            get {
+                return ResourceManager.GetString("ingresacontra", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Escribe tu correo....
+        /// </summary>
+        public static string ingresaemail {
+            get {
+                return ResourceManager.GetString("ingresaemail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a iniciar sesión.
+        /// </summary>
+        public static string login {
+            get {
+                return ResourceManager.GetString("login", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Recorderme en este dispositivo.
+        /// </summary>
+        public static string recordarme {
+            get {
+                return ResourceManager.GetString("recordarme", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Ingresa un Email.
         /// </summary>
         public static string validacionEmail {
             get {
                 return ResourceManager.GetString("validacionEmail", resourceCulture);
             }
         }
-
-        /// <summary>
-        ///   Busca una cadena traducida similar a .
-        /// </summary>
-        public static string Aceptar
-        {
-            get
-            {
-                return ResourceManager.GetString("Aceptar", resourceCulture);
-            }
-        }
-
-
     }
 }

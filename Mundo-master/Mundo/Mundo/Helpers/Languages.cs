@@ -26,6 +26,28 @@
         {
             get { return Resource.Aceptar; }
         }
+
+        public static string ingresaemail
+        {
+            get { return Resource.ingresaemail; }
+        }
+
+        public static string recordarme
+        {
+            get { return Resource.recordarme; }
+        }
+
+        public static string ingresacontra
+        {
+            get { return Resource.ingresacontra; }
+        }
+
+        public static string login
+        {
+            get { return Resource.login; }
+        }
+
+
     }
 
 }

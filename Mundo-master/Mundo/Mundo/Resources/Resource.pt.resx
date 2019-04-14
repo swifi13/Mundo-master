@@ -123,6 +123,18 @@
   <data name="Error" xml:space="preserve">
     <value>Aceitar</value>
   </data>
+  <data name="ingresacontra" xml:space="preserve">
+    <value>Digite sua senha</value>
+  </data>
+  <data name="ingresaemail" xml:space="preserve">
+    <value>Digite seu e-mail...</value>
+  </data>
+  <data name="login" xml:space="preserve">
+    <value>entrar</value>
+  </data>
+  <data name="recordarme" xml:space="preserve">
+    <value>Lembre-se de min neste dispositivo</value>
+  </data>
   <data name="validacionEmail" xml:space="preserve">
     <value>Digite um email</value>
   </data>

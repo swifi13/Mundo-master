@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:i18n="clr-namespace:Mundo.Helpers"
              x:Class="Mundo.Views.LoginPage"
              BindingContext="{Binding Main, Source={StaticResource Locator}}"
-             Title="Login">
+             Title="{i18n:Translate login}">
     <ContentPage.Content>
         <ScrollView
             BindingContext="{Binding Login}">
@@ -35,12 +36,12 @@
                         Grid.Column="1"
                         Keyboard="Email"
                         Text="{Binding Email, Mode=TwoWay}"
-                        Placeholder="Escribe tu correo">
+                        Placeholder="{i18n:Translate ingresaemail}">
                     </Entry>
                     <Label 
                         Grid.Row="1"
                         Grid.Column="0"
-                        Text="Email"
+                        Text="Contraseña"
                         VerticalOptions="Center">
                     </Label>
                     <Entry
@@ -48,7 +49,7 @@
                         Grid.Column="1"
                         IsPassword="True"
                         Text="{Binding Password, Mode=TwoWay}"
-                        Placeholder="Escribe tu contraseña">
+                        Placeholder="{i18n:Translate ingresacontra}">
                     </Entry>
                 </Grid>
 
@@ -63,7 +64,7 @@
                     Orientation="Horizontal">
                     <Label
                         HorizontalOptions="StartAndExpand"
-                        Text="Recorderme en este dispositivo"   
+                        Text= "{i18n:Translate recordarme}"
                         VerticalOptions="Center">
                     </Label>
                     <Switch
