@@ -70,6 +70,33 @@ namespace Mundo.Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Buscar.
+        /// </summary>
+        public static string buscar {
+            get {
+                return ResourceManager.GetString("buscar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Escribe tu contraseña.
+        /// </summary>
+        public static string contra {
+            get {
+                return ResourceManager.GetString("contra", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a contraseña.
+        /// </summary>
+        public static string contraseña {
+            get {
+                return ResourceManager.GetString("contraseña", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Error.
         /// </summary>
         public static string Error {
@@ -79,11 +106,11 @@ namespace Mundo.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Escribe tu contraseña.
+        ///   Busca una cadena traducida similar a Algo sucedio mal, porfavor intenta mas tarde.
         /// </summary>
-        public static string ingresacontra {
+        public static string error1 {
             get {
-                return ResourceManager.GetString("ingresacontra", resourceCulture);
+                return ResourceManager.GetString("error1", resourceCulture);
             }
         }
         
@@ -97,6 +124,15 @@ namespace Mundo.Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Iniciar Sesión.
+        /// </summary>
+        public static string iniciarsesion {
+            get {
+                return ResourceManager.GetString("iniciarsesion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a iniciar sesión.
         /// </summary>
         public static string login {
@@ -106,11 +142,56 @@ namespace Mundo.Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a mundo.
+        /// </summary>
+        public static string mundo {
+            get {
+                return ResourceManager.GetString("mundo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Pais.
+        /// </summary>
+        public static string Pais {
+            get {
+                return ResourceManager.GetString("Pais", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Paises.
+        /// </summary>
+        public static string Paises {
+            get {
+                return ResourceManager.GetString("Paises", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Recorderme en este dispositivo.
         /// </summary>
         public static string recordarme {
             get {
                 return ResourceManager.GetString("recordarme", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Registrarse.
+        /// </summary>
+        public static string Registrarse {
+            get {
+                return ResourceManager.GetString("Registrarse", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a debe introducir una contraseña.
+        /// </summary>
+        public static string validacioncontra {
+            get {
+                return ResourceManager.GetString("validacioncontra", resourceCulture);
             }
         }
         

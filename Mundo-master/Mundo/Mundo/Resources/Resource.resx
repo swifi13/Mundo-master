@@ -120,20 +120,47 @@
   <data name="Aceptar" xml:space="preserve">
     <value>Aceptar</value>
   </data>
+  <data name="buscar" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="contra" xml:space="preserve">
+    <value>Escribe tu contraseña</value>
+  </data>
+  <data name="contraseña" xml:space="preserve">
+    <value>contraseña</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Error</value>
   </data>
-  <data name="ingresacontra" xml:space="preserve">
-    <value>Escribe tu contraseña</value>
+  <data name="error1" xml:space="preserve">
+    <value>Algo sucedio mal, porfavor intenta mas tarde</value>
   </data>
   <data name="ingresaemail" xml:space="preserve">
     <value>Escribe tu correo...</value>
   </data>
+  <data name="iniciarsesion" xml:space="preserve">
+    <value>Iniciar Sesión</value>
+  </data>
   <data name="login" xml:space="preserve">
     <value>iniciar sesión</value>
   </data>
+  <data name="mundo" xml:space="preserve">
+    <value>mundo</value>
+  </data>
+  <data name="Pais" xml:space="preserve">
+    <value>Pais</value>
+  </data>
+  <data name="Paises" xml:space="preserve">
+    <value>Paises</value>
+  </data>
   <data name="recordarme" xml:space="preserve">
     <value>Recorderme en este dispositivo</value>
+  </data>
+  <data name="Registrarse" xml:space="preserve">
+    <value>Registrarse</value>
+  </data>
+  <data name="validacioncontra" xml:space="preserve">
+    <value>debe introducir una contraseña</value>
   </data>
   <data name="validacionEmail" xml:space="preserve">
     <value>Ingresa un Email</value>

@@ -120,20 +120,47 @@
   <data name="Aceptar" xml:space="preserve">
     <value>Accept</value>
   </data>
+  <data name="buscar" xml:space="preserve">
+    <value>Search for</value>
+  </data>
+  <data name="contra" xml:space="preserve">
+    <value>enter your password</value>
+  </data>
+  <data name="contraseña" xml:space="preserve">
+    <value>Password</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Error</value>
   </data>
-  <data name="ingresacontra" xml:space="preserve">
-    <value>enter your password</value>
+  <data name="error1" xml:space="preserve">
+    <value>Something happened wrong, please try later</value>
   </data>
   <data name="ingresaemail" xml:space="preserve">
     <value>Enter your email...</value>
   </data>
+  <data name="iniciarsesion" xml:space="preserve">
+    <value>Log in</value>
+  </data>
   <data name="login" xml:space="preserve">
     <value>login</value>
   </data>
+  <data name="mundo" xml:space="preserve">
+    <value>Lands</value>
+  </data>
+  <data name="Pais" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="Paises" xml:space="preserve">
+    <value>Countries</value>
+  </data>
   <data name="recordarme" xml:space="preserve">
     <value>Rememberme in this device</value>
+  </data>
+  <data name="Registrarse" xml:space="preserve">
+    <value>Sign in</value>
+  </data>
+  <data name="validacioncontra" xml:space="preserve">
+    <value>you must enter a password</value>
   </data>
   <data name="validacionEmail" xml:space="preserve">
     <value>You must enter an email</value>

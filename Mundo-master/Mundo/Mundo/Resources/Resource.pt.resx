@@ -120,20 +120,47 @@
   <data name="Aceptar" xml:space="preserve">
     <value>Aceitar</value>
   </data>
-  <data name="Error" xml:space="preserve">
-    <value>Aceitar</value>
+  <data name="buscar" xml:space="preserve">
+    <value>Pesquisar</value>
   </data>
-  <data name="ingresacontra" xml:space="preserve">
+  <data name="contra" xml:space="preserve">
     <value>Digite sua senha</value>
+  </data>
+  <data name="contraseña" xml:space="preserve">
+    <value>password</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="error1" xml:space="preserve">
+    <value>Algo aconteceu de errado, por favor tente mais tarde</value>
   </data>
   <data name="ingresaemail" xml:space="preserve">
     <value>Digite seu e-mail...</value>
   </data>
+  <data name="iniciarsesion" xml:space="preserve">
+    <value>Iniciar sessão</value>
+  </data>
   <data name="login" xml:space="preserve">
     <value>entrar</value>
   </data>
+  <data name="mundo" xml:space="preserve">
+    <value>terras</value>
+  </data>
+  <data name="Pais" xml:space="preserve">
+    <value>Pais</value>
+  </data>
+  <data name="Paises" xml:space="preserve">
+    <value>Países</value>
+  </data>
   <data name="recordarme" xml:space="preserve">
     <value>Lembre-se de min neste dispositivo</value>
+  </data>
+  <data name="Registrarse" xml:space="preserve">
+    <value>Cadastre-se</value>
+  </data>
+  <data name="validacioncontra" xml:space="preserve">
+    <value>você deve digitar uma senha</value>
   </data>
   <data name="validacionEmail" xml:space="preserve">
     <value>Digite um email</value>

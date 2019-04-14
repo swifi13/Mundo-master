@@ -85,9 +85,9 @@
             if (string.IsNullOrEmpty(this.Password))
             {
                 await Application.Current.MainPage.DisplayAlert(
-                    "Error",
-                    "Ingresa una contraseña",
-                    "Aceptar");
+                    Languages.Error,
+                    Languages.validacioncontra,
+                    Languages.Aceptar);
                 this.Password = string.Empty;
                 return;
             }
@@ -101,9 +101,9 @@
                 this.IsRunning = false;
                 this.IsEnabled = true;
                 await Application.Current.MainPage.DisplayAlert(
-                    "Error",
+                    Languages.Error,
                     connection.Message,
-                    "Aceptar");
+                    Languages.Aceptar);
                 return;
 
             }
@@ -118,9 +118,9 @@
                 this.IsRunning = false;
                 this.IsEnabled = true;
                 await Application.Current.MainPage.DisplayAlert(
-                    "Error",
-                    "Algo sucedio mal, porfavor intenta mas tarde",
-                    "Aceptar");
+                    Languages.Error,
+                    Languages.error1,
+                    Languages.Aceptar);
                 return;
             }
 
@@ -129,9 +129,9 @@
                 this.IsRunning = false;
                 this.IsEnabled = true;
                 await Application.Current.MainPage.DisplayAlert(
-                    "Error",
+                    Languages.Error,
                     token.ErrorDescription,
-                    "Aceptar");
+                    Languages.Aceptar);
                 this.Password = string.Empty;
                 return;
 

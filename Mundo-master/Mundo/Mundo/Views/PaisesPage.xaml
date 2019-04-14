@@ -4,9 +4,10 @@
              xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
              xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
              xmlns:ffimageloadingsvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+             xmlns:i18n="clr-namespace:Mundo.Helpers"
              x:Class="Mundo.Views.PaisesPage"
              BindingContext="{Binding Main, Source={StaticResource Locator}}"
-             Title="Paises">
+             Title="{i18n:Translate Paises}">
     <ContentPage.Resources>
         <ResourceDictionary>
             <ffimageloadingsvg:SvgImageSourceConverter 
@@ -18,7 +19,7 @@
             BindingContext="{Binding Paises}">
             <SearchBar
                 HeightRequest="46"
-                Placeholder="Buscar.."
+                Placeholder="{i18n:Translate buscar}"
                 Text="{Binding Filter, Mode=TwoWay}"
                 SearchCommand="{Binding SearchCommand}">
                 

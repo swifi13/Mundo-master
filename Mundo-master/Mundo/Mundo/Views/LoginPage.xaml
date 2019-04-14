@@ -10,7 +10,7 @@
             BindingContext="{Binding Login}">
             <StackLayout
             Padding="5">
-                <Label Text="Mundo"
+                <Label Text="{i18n:Translate mundo}"
                    FontAttributes="Bold"
                    FontSize="Large"
                    HorizontalOptions="Center" />
@@ -41,7 +41,7 @@
                     <Label 
                         Grid.Row="1"
                         Grid.Column="0"
-                        Text="Contraseña"
+                        Text="{i18n:Translate contraseña}"
                         VerticalOptions="Center">
                     </Label>
                     <Entry
@@ -49,7 +49,7 @@
                         Grid.Column="1"
                         IsPassword="True"
                         Text="{Binding Password, Mode=TwoWay}"
-                        Placeholder="{i18n:Translate ingresacontra}">
+                        Placeholder="{i18n:Translate contra}">
                     </Entry>
                 </Grid>
 
@@ -64,7 +64,7 @@
                     Orientation="Horizontal">
                     <Label
                         HorizontalOptions="StartAndExpand"
-                        Text= "{i18n:Translate recordarme}"
+                        Text="{i18n:Translate recordarme}"
                         VerticalOptions="Center">
                     </Label>
                     <Switch
@@ -79,7 +79,7 @@
                     VerticalOptions="CenterAndExpand"
                     Margin="30, 0">
                     <Button
-                        Text="Iniciar Sesión"
+                        Text="{i18n:Translate iniciarsesion}"
                         TextColor="White"
                         Command="{Binding LoginCommand}"
                         HorizontalOptions="FillAndExpand"
@@ -87,7 +87,7 @@
                         BackgroundColor="Navy">
                     </Button>
                     <Button
-                        Text="Registrarse"
+                        Text="{i18n:Translate Registrarse}"
                         TextColor="White"
                         HorizontalOptions="FillAndExpand"
                         IsEnabled="{Binding IsEnabled, Mode=TwoWay}"
